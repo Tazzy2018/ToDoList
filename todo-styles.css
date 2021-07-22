@@ -14,6 +14,12 @@ body {
     
 }
 
+header p {
+    font-size: 60px;
+    font-family: 'Caveat',
+    cursive;
+}
+
 /* STYLYING INPUT ELEMENT AND THE BUTTON */
 header,
 form {
@@ -25,11 +31,13 @@ form {
 }
 
 form input {
-    padding: 0.6rem;
+    padding: 0.7rem;
     font-size: 1.5rem;
     background: white;
     border-radius: 10px;
     border: 2px solid black;
+    
+    
     
 }
 
@@ -42,6 +50,7 @@ form button {
     font-size: 1.5rem;
     border-radius: 10px;
     border: 2px solid black;
+    
 }
 
 form button:hover {
@@ -75,6 +84,9 @@ form button:hover {
     align-items: center;
     transition: all 0.5s ease;
     border-radius: 10px;
+    font-family: 'Gloria Hallelujah',
+    cursive;
+
 }
 
 .todo li {
@@ -96,14 +108,6 @@ form button:hover {
 .complete_btn {
     background: green
 }
-
-/* .complete_btn:active {
-    background: green;
-} */
-
-/* .delete_btn:active {
-    background: #b65337;
-} */
 
 .fa-minus-circle,
 .fa-check-circle {
@@ -131,14 +135,19 @@ form button:hover {
         min-height: 10vh;
     }
 
+    header p {
+        font-size: 40px;
+    }
+
     form input {
-        padding: 0.6rem;
-        font-size: 1rem;
+        padding: 0.7rem;
+        font-size: 1.2rem;
+        margin-top: 2%;
     }
 
     form button {
         padding: 0.6rem;
-        font-size: 1rem;
+        font-size: 1.2rem;
         }
 
         .todo {
@@ -183,7 +192,7 @@ form button:hover {
     }
 
     .todo {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     padding: 0.3rem;
     }
 
