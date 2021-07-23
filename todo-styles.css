@@ -15,7 +15,7 @@ body {
 }
 
 header p {
-    font-size: 60px;
+    font-size: 55px;
     font-family: 'Caveat',
     cursive;
 }
@@ -136,7 +136,7 @@ form button:hover {
     }
 
     header p {
-        font-size: 40px;
+        font-size: 32px;
     }
 
     form input {
